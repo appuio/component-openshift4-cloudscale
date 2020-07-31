@@ -1,0 +1,6 @@
+name: openshift4-cloudscale
+title: Terraform OpenShift4 cloudscale.ch
+version: master
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/partials/nav.adoc

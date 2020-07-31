@@ -1,0 +1,3 @@
+= Terraform OpenShift4 cloudscale.ch: A Commodore component to manage Terraform OpenShift4 cloudscale.ch
+
+{doctitle} is a Commodore component for Managing Terraform OpenShift4 cloudscale.ch.
