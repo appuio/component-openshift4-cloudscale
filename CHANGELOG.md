@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 
-- …
+- Initial implementation ([#1])
 
-[Unreleased]: https://github.com/appuio/component-openshift4-cloudscale/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/appuio/component-openshift4-cloudscale/compare/3df8ab3e43c1931506f8bc9e9b771cc37bead1fc...HEAD
+
+[#1]: https://github.com/appuio/component-openshift4-cloudscale/pull/1

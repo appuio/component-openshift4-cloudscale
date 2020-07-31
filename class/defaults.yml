@@ -1,3 +1,7 @@
 parameters:
   openshift4_cloudscale:
-    namespace: syn-openshift4-cloudscale
+    variables:
+      source: github.com/appuio/terraform-openshift4-cloudscale?ref=master
+      cluster_id: ${cluster:name}
+      region: ${cloud:region}
+      ignition_bootstrap: \${var.ignition_bootstrap}
