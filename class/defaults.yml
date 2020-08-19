@@ -1,5 +1,11 @@
 parameters:
   openshift4_cloudscale:
+    images:
+      terraform:
+        image: registry.gitlab.com/gitlab-org/terraform-images/releases/0.12
+        tag: v0.1.2
+    gitlab_ci:
+      tags: []
     variables:
       source: github.com/appuio/terraform-openshift4-cloudscale?ref=master
       cluster_id: ${cluster:name}

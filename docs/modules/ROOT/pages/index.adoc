@@ -5,3 +5,14 @@
 [WARNING]
 This is a proof of concept to generate Terraform setups via Commodore and isn't considered production ready.
 This setup might change drastically or be removed alltogether.
+
+
+== GitLab CI Setup
+
+A `gitlab-ci.yml` file gets rendered by this component to run Terraform in GitLab CI.
+
+To enable the pipeline:
+
+. Go to the project's "Settings" -> "CI/CD" -> "General pipelines" and set the "Custom CI configuration path" to `manifests/openshift4-cloudscale/gitlab-ci.yml`
+. Under "Variables" configure the variable `CLOUDSCALE_TOKEN_RO` with a https://control.cloudscale.ch/user/api-tokens/create[cloudscale.ch read-only API token] (not protected but masked)
+. Configure the variable `CLOUDSCALE_TOKEN_RW` with a https://control.cloudscale.ch/user/api-tokens/create[cloudscale.ch read-write API token] (protected and masked)

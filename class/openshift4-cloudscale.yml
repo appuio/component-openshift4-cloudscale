@@ -7,6 +7,11 @@ parameters:
         output_type: json
         output_path: openshift4-cloudscale/
       - input_paths:
+          - openshift4-cloudscale/component/gitlab-ci.jsonnet
+        input_type: jsonnet
+        output_type: yml
+        output_path: openshift4-cloudscale/
+      - input_paths:
           - openshift4-cloudscale/component/.gitignore
         input_type: copy
         output_path: openshift4-cloudscale/
