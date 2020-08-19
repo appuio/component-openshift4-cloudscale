@@ -11,7 +11,7 @@ local params = inv.parameters.openshift4_cloudscale;
     ],
     default: {
       image: params.images.terraform.image + ':' + params.images.terraform.tag,
-      tags: ['unpriv_dockerbuild'],
+      tags: params.gitlab_ci.tags,
       before_script: [
         'cd ${TF_ROOT}',
         'gitlab-terraform init',
