@@ -1,5 +1,11 @@
 = Terraform OpenShift4 cloudscale.ch: A Commodore component to manage Terraform OpenShift4 cloudscale.ch
 
+[IMPORTANT]
+====
+This component has been deprecated in favor of component xref:openshift4-terraform:ROOT:index.adoc[openshift4-terraform].
+See the openshift4-terraform documentation for a xref:openshift4-terraform:ROOT:how-tos/migrate-from-openshift4-cloudscale.adoc[migration how-to].
+====
+
 {doctitle} is a Commodore component for Managing Terraform OpenShift4 cloudscale.ch.
 
 [WARNING]
