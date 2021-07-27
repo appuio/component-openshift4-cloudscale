@@ -1,3 +1,10 @@
+# :warning: Repo Archive Notice
+
+As of July 27, 2021, this component is deprecated and will no longer be updated.
+Use component [openshift4-terraform](https://github.com/appuio/component-openshift4-terraform) instead of this component.
+
+See https://hub.syn.tools/openshift4-terraform/how-tos/migrate-from-openshift4-cloudscale.html for migration instructions.
+
 # Commodore Component: Terraform OpenShift4 cloudscale.ch
 
 This is a [Commodore][commodore] Component for Terraform OpenShift4 cloudscale.ch.

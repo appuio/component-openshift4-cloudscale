@@ -1,5 +1,11 @@
 parameters:
   openshift4_cloudscale:
+    =_metadata:
+      deprecated: True
+      replaced_by: openshift4-terraform
+      deprecation_notice: >-
+        See https://hub.syn.tools/openshift4-terraform/how-tos/migrate-from-openshift4-cloudscale.html for migration instructions
+
     images:
       terraform:
         image: registry.gitlab.com/gitlab-org/terraform-images/releases/0.13
